@@ -1,6 +1,6 @@
 # Full Stack FastAPI and PostgreSQL - Base Project Generator
 
-[![Build Status](https://travis-ci.org/wifidoneright/wlpc2023-wifiapi.svg?branch=main)](https://travis-ci.org/wifidoneright/wlpc2023-wifiapi)
+[![Build Status](https://travis-ci.com/wifidoneright/wlpc2023-wifiapi.svg?branch=main)](https://travis-ci.com/wifidoneright/wlpc2023-wifiapi)
 
 Generate a backend and frontend stack using Python, including interactive API documentation.
 
