@@ -1,27 +1,27 @@
 # Full Stack FastAPI and PostgreSQL - Base Project Generator
 
-[![Build Status](https://travis-ci.org/tiangolo/full-stack-fastapi-postgresql.svg?branch=master)](https://travis-ci.org/tiangolo/full-stack-fastapi-postgresql)
+[![Build Status](https://travis-ci.org/wifidoneright/wlpc2023-wifiapi.svg?branch=main)](https://travis-ci.org/wifidoneright/wlpc2023-wifiapi)
 
 Generate a backend and frontend stack using Python, including interactive API documentation.
 
 ### Interactive API documentation
 
-[![API docs](img/docs.png)](https://github.com/tiangolo/full-stack-fastapi-postgresql)
+[![API docs](img/docs.png)](https://github.com/wifidoneright/wlpc2023-wifiapi)
 
 
 ### Alternative API documentation
 
-[![API docs](img/redoc.png)](https://github.com/tiangolo/full-stack-fastapi-postgresql)
+[![API docs](img/redoc.png)](https://github.com/wifidoneright/wlpc2023-wifiapi)
 
 
 ### Dashboard Login
 
-[![API docs](img/login.png)](https://github.com/tiangolo/full-stack-fastapi-postgresql)
+[![API docs](img/login.png)](https://github.com/wifidoneright/wlpc2023-wifiapi)
 
 
 ### Dashboard - Create User
 
-[![API docs](img/dashboard.png)](https://github.com/tiangolo/full-stack-fastapi-postgresql)
+[![API docs](img/dashboard.png)](https://github.com/wifidoneright/wlpc2023-wifiapi)
 
 ## Features
 
@@ -73,7 +73,7 @@ Go to the directoy where you want to create your project and run:
 
 ```bash
 pip install cookiecutter
-cookiecutter https://github.com/tiangolo/full-stack-fastapi-postgresql
+cookiecutter https://github.com/wifidoneright/wlpc2023-wifiapi
 ```
 
 ### Generate passwords
@@ -153,33 +153,3 @@ After using this generator, your new project (the directory created) will contai
 * Fix documentation for *path operation* to get user by ID. <a href="https://github.com/tiangolo/fastapi/pull/97" target="_blank">PR #97</a> by <a href="https://github.com/mpclarkson" target="_blank">@mpclarkson</a>.
 
 * Set `/start-reload.sh` as a command override for development by default.
-
-* Update generated README.
-
-### 0.2.0
-
-**<a href="https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/2" target="_blank">PR #2</a>**:
-
-* Simplify and update backend `Dockerfile`s.
-* Refactor and simplify backend code, improve naming, imports, modules and "namespaces".
-* Improve and simplify Vuex integration with TypeScript accessors.
-* Standardize frontend components layout, buttons order, etc.
-* Add local development scripts (to develop this project generator itself).
-* Add logs to startup modules to detect errors early.
-* Improve FastAPI dependency utilities, to simplify and reduce code (to require a superuser).
-
-### 0.1.2
-
-* Fix path operation to update self-user, set parameters as body payload.
-
-### 0.1.1
-
-Several bug fixes since initial publication, including:
-
-* Order of path operations for users.
-* Frontend sending login data in the correct format.
-* Add https://localhost variants to CORS.
-
-## License
-
-This project is licensed under the terms of the MIT license.
