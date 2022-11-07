@@ -1,0 +1,15 @@
+celery==4.2.1
+passlib[bcrypt] 
+tenacity 
+requests==2.24.0 
+emails 
+fastapi>=0.7.1
+uvicorn 
+gunicorn 
+pyjwt 
+python-multipart 
+email_validator 
+jinja2 
+psycopg2-binary 
+alembic 
+SQLAlchemy
